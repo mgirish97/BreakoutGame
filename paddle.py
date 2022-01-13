@@ -8,8 +8,8 @@ class Paddle(Turtle):
         self.speed('fastest')
         self.shape('square')
         self.penup()
-        self.color('white')
-        self.shapesize(stretch_wid=0.5, stretch_len=7)
+        self.color('grey')
+        self.shapesize(stretch_wid=0.75, stretch_len=7)
         self.goto(0, -250)
     
     def move_left(self):
